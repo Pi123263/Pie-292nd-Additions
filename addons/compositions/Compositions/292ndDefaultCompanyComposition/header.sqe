@@ -1,0 +1,36 @@
+version=54;
+name="292nd Airborne Regiment Default Company Composition";
+author="pi123263";
+category="rhssaf_EdSubcat_army_infantry_para";
+requiredAddons[]=
+{
+	"A3_Aegis_Supplies_F_Aegis_Ammoboxes",
+	"A3_Characters_F_AoW",
+	"A3_Weapons_F",
+	"tfar_handhelds",
+	"cTab",
+	"A3_Aegis_Characters_F_Aegis_Facewear",
+	"A3_Atlas_Characters_F_Atlas_Facewear",
+	"A3_Characters_F_AoW_Headgear",
+	"A3_Characters_F",
+	"A3_Aegis_Characters_F_Aegis",
+	"ace_optics",
+	"A3_Weapons_F_Items",
+	"Weapons_F_Essentials_Items",
+	"ace_medical_treatment",
+	"ace_gforces",
+	"ace_parachute",
+	"rhsusf_c_troops",
+	"ace_compat_rhs_usf3",
+	"ace_realisticnames",
+	"A3_Aegis_Characters_F_Aegis_RF",
+	"A3_Weapons_F_Pistols_P07",
+	"A3_Aegis_Weapons_F_Aegis",
+	"ace_ballistics",
+	"ace_smallarms",
+	"A3_Aegis_Characters_F_Aegis_Headgear",
+	"tfar_external_intercom",
+	"ace_hearing",
+	"A3_Aegis_Characters_F_Aegis_Uniforms",
+	"mas_ger_add_FlagCarriers"
+};
