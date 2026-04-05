@@ -1,4 +1,4 @@
-name		= "292nd Pie Adds";
+name		= "292nd Pie Additions";
 picture 	= "292ndlogobig.paa";
 logoSmall	= "292ndlogosupersmall.paa";
 logo		= "292ndlogosmall.paa";
