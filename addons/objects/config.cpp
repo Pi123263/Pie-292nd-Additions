@@ -44,7 +44,14 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
-	class Land_Billboard_F;
+	class Land_Ammobox_rounds_F;
+	class Pie_Fortify_AmmoBoxObject : Land_Ammobox_rounds_F
+	{
+		displayName="50cal Magazine(CSW)";
+		editorCategory = "Pie292ndAdds_EdCat_292nd";
+		editorSubcategory = "Pie292ndAdds_EdSubCat_Flags";
+	};
+	/*class Land_Billboard_F;
 	class Pie_Billboard_SmokeRoles : Land_Billboard_F
 	{
 		author="Pi123263";
@@ -53,15 +60,15 @@ class CfgVehicles
         scope=2;
         scopeCurator=2;
         displayName="Smoke Usage";
-		hiddenSelectionsTextures[]=
-        {
-            '#(rgb,512,512,3)text(0,0,"PuristaBold",0.07,"#FFFFFF","#000000","test")'
-        };
+		//hiddenSelectionsTextures[]=
+        //{
+        //    '#(rgb,512,512,3)text(0,0,"PuristaBold",0.07,"#FFFFFF","#000000","test")'
+        //};
 		//class EventHandlers
 		//{
 		//	init = "(_this select 0) setObjectTexture [0, '#(rgb,512,512,3)text(0,0,\"PuristaBold\",0.07,\"#FFFFFF\",\"#000000\",\"Smokes\nGreen Marking LZs\n\nRed Marking CAS Targets\n\nPurple Mass Casualty Locations\n\nYellow General Concealment - Location Marking\n\nBlue General Concealment - Location Marking\")'];";
 		//};
-	};
+	};*/
 	
 	
 	class FlagCarrier;

@@ -20,7 +20,7 @@ class ACEX_Fortify_Presets {
     class Pie_FortifyPreset_292West {
         displayName = "292 Preset West";
         objects[] = {
-            {"Land_Ammobox_rounds_F",				1},
+            {"Pie_Fortify_AmmoBoxObject",			1},
 			{"Land_HelipadCircle_F",				1},
 			{"ACE_Track",							5},
 			{"ACE_Wheel",							5},
@@ -44,7 +44,7 @@ class ACEX_Fortify_Presets {
 	class Pie_FortifyPreset_292Indep {
         displayName = "292 Preset Indep";
         objects[] = {
-            {"Land_Ammobox_rounds_F",				1},
+            {"Pie_Fortify_AmmoBoxObject",			1},
 			{"Land_HelipadCircle_F",				1},
 			{"ACE_Track",							5},
 			{"ACE_Wheel",							5},

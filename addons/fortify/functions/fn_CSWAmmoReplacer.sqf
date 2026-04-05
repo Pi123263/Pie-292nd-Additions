@@ -1,7 +1,7 @@
 ["acex_fortify_objectPlaced", {
     params ["_player", "_side", "_objectPlaced"];
     // Exit if not running on the builder's machine and the placed object wasn't an ammo box
-    if !(local _player && typeOf _objectPlaced == "Land_Ammobox_rounds_F") exitWith {};
+    if !(local _player && typeOf _objectPlaced == "Pie_Fortify_AmmoBoxObject") exitWith {};
     
     private _itemHolder = createVehicle ["GroundWeaponHolder", [0, 0, 0], [], 0, "CAN_COLLIDE"];
     _itemHolder addMagazineCargoGlobal ["ace_csw_100Rnd_127x99_mag_green", 1];
