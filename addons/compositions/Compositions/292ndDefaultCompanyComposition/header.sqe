@@ -18,6 +18,11 @@ requiredAddons[]=
 	"A3_Weapons_F_Items",
 	"Weapons_F_Essentials_Items",
 	"ace_medical_treatment",
+	"kat_pharma",
+	"A3_Aegis_Characters_F_Aegis_Uniforms",
+	"kat_circulation",
+	"kat_breathing",
+	"FSGm_MedicBag",
 	"ace_gforces",
 	"ace_parachute",
 	"rhsusf_c_troops",
@@ -31,6 +36,8 @@ requiredAddons[]=
 	"A3_Aegis_Characters_F_Aegis_Headgear",
 	"tfar_external_intercom",
 	"ace_hearing",
-	"A3_Aegis_Characters_F_Aegis_Uniforms",
-	"mas_ger_add_FlagCarriers"
+	"mas_ger_add_FlagCarriers",
+	"A3_Soft_F_MRAP_01",
+	"A3_Modules_F_Multiplayer",
+	"ace_fortify"
 };
