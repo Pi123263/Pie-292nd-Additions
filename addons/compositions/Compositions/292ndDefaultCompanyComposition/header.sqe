@@ -4,7 +4,12 @@ author="pi123263";
 category="rhssaf_EdSubcat_army_infantry_para";
 requiredAddons[]=
 {
+	"mas_ger_add_FlagCarriers",
 	"A3_Aegis_Supplies_F_Aegis_Ammoboxes",
+	"A3_Soft_F_MRAP_01",
+	"ace_realisticnames",
+	"ace_fortify",
+	"A3_Modules_F_Multiplayer",
 	"A3_Characters_F_AoW",
 	"A3_Weapons_F",
 	"tfar_handhelds",
@@ -27,7 +32,6 @@ requiredAddons[]=
 	"ace_parachute",
 	"rhsusf_c_troops",
 	"ace_compat_rhs_usf3",
-	"ace_realisticnames",
 	"A3_Aegis_Characters_F_Aegis_RF",
 	"A3_Weapons_F_Pistols_P07",
 	"A3_Aegis_Weapons_F_Aegis",
@@ -35,9 +39,5 @@ requiredAddons[]=
 	"ace_smallarms",
 	"A3_Aegis_Characters_F_Aegis_Headgear",
 	"tfar_external_intercom",
-	"ace_hearing",
-	"mas_ger_add_FlagCarriers",
-	"A3_Soft_F_MRAP_01",
-	"A3_Modules_F_Multiplayer",
-	"ace_fortify"
+	"ace_hearing"
 };
