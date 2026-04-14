@@ -5,9 +5,9 @@ category="rhssaf_EdSubcat_army_infantry_para";
 requiredAddons[]=
 {
 	"mas_ger_add_FlagCarriers",
-	"A3_Aegis_Supplies_F_Aegis_Ammoboxes",
 	"A3_Soft_F_MRAP_01",
 	"ace_realisticnames",
+	"A3_Aegis_Supplies_F_Aegis_Ammoboxes",
 	"ace_fortify",
 	"A3_Modules_F_Multiplayer",
 	"A3_Characters_F_AoW",
@@ -28,6 +28,7 @@ requiredAddons[]=
 	"kat_circulation",
 	"kat_breathing",
 	"FSGm_MedicBag",
+	"ace_explosives",
 	"ace_gforces",
 	"ace_parachute",
 	"rhsusf_c_troops",
@@ -39,5 +40,9 @@ requiredAddons[]=
 	"ace_smallarms",
 	"A3_Aegis_Characters_F_Aegis_Headgear",
 	"tfar_external_intercom",
-	"ace_hearing"
+	"ace_hearing",
+	"A3_Modules_F_Curator_Curator",
+	"ef_curator",
+	"A3_Ui_F",
+	"Additional_Map_Marker_Colors"
 };
