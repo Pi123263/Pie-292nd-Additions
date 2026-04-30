@@ -32,8 +32,8 @@ class CfgMainMenuSpotlight
 		video="";
 		//action="connectToServer ['194.164.96.227', 2302, 'mikemike']";
 		//action="(_this # 0) ctrlSetURL 'ts3server://194.164.96.227'; connectToServer ['194.164.96.227', 2302, 'mikemike']; ";
-		action="Pie_currentTSServerUID = call TFAR_fnc_getTeamSpeakServerUID; if(Pie_currentTSServerUID != 'tUow60s8m6zum81qtUX+oG5XMV4=') then {(_this # 0) ctrlSetURL 'ts3server://194.164.96.227';}; connectToServer ['194.164.96.227', 2302, 'mikemike'];";
-		
+		//action="Pie_currentTSServerUID = call TFAR_fnc_getTeamSpeakServerUID; if(Pie_currentTSServerUID != 'tUow60s8m6zum81qtUX+oG5XMV4=') then {(_this # 0) ctrlSetURL 'ts3server://194.164.96.227';}; connectToServer ['194.164.96.227', 2302, 'mikemike'];";
+		action="connectToServer ['194.164.96.227', 2302, 'mikemike'];";
 		
 		
 		actionText="292nd Server";
