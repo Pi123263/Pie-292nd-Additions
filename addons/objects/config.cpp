@@ -40,6 +40,15 @@ class CfgEditorSubcategories
 	{
 		displayName = "Jaeger's Markers";
 	};
+
+	class Pie292ndAdds_EdSubCat_AB_Flags
+	{
+		displayName = "Altis Burns Flags";
+	};
+	class Pie292ndAdds_EdSubCat_AB_Markers
+	{
+		displayName = "Altis Burns Markers";
+	};
 };
 
 class CfgVehicles
@@ -474,6 +483,26 @@ class CfgVehicles
         {
             init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\jaegerFlags\flag_jaeger_warsawPact.paa'";
         };
+	};
+
+	//altis burnssssssssssssssssssss
+	class Pie292ndAdds_JaegerFlag_AltisBurns_3rdRifles: Pie292ndAdds_JaegerFlag_CSR 
+	{
+		displayName="3rd Rifles (Altis Burns)";
+		editorSubcategory = "Pie292ndAdds_EdSubCat_AB_Flags";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\jaegerFlags\flag_AB_3rdRifles.paa'";
+		};
+	};
+	
+	class Pie292ndAdds_JaegerFlag_AltisBurns_Totalists: Pie292ndAdds_JaegerFlag_AltisBurns_3rdRifles 
+	{
+		displayName="Totalists (Altis Burns)";
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\jaegerFlags\flag_AB_Totalists.paa'";
+		};
 	};
 };
 
