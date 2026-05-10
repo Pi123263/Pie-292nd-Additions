@@ -23,7 +23,7 @@ class CfgVehicles {
 			class ACE_MainActions {
 				class Pie292Adds_AttachFlagToVehicle {
 					displayName = "Add 292nd Flag to Vehicle";
-					condition = "alive _target";
+					condition = "alive _target && Pie_292Adds_EnableVehicleFlags";
 					distance = 4;
 					statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\292ndflag.paa';";
 				
@@ -158,7 +158,7 @@ class Tank: LandVehicle {
 			class ACE_MainActions {
 				class Pie292Adds_AttachFlagToVehicle {
 					displayName = "Add 292nd Flag to Vehicle";
-					condition = "alive _target";
+					condition = "alive _target && Pie_292Adds_EnableVehicleFlags";
 					distance = 4;
 					statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\292ndflag.paa';";
 				
