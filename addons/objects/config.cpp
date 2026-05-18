@@ -18,6 +18,10 @@ class CfgPatches
 
 class CfgEditorSubcategories
 {
+	class Pie292ndAdds_EdSubCat_Supplies
+	{
+		displayName = "Supplies";
+	};
 	class Pie292ndAdds_EdSubCat_Billboards 
 	{
 		displayName = "Billboards";
@@ -503,6 +507,30 @@ class CfgVehicles
 		{
 			init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\jaegerFlags\flag_AB_Totalists.paa'";
 		};
+	};
+
+	class Box_IED_Exp_F;
+	class Pie292ndAdds_Fortfy_MineBox : Box_IED_Exp_F
+	{
+		displayName="Fortify Mine Box";
+		editorCategory = "Pie292ndAdds_EdCat_292nd";
+		editorSubcategory = "Pie292ndAdds_EdSubCat_Supplies";
+
+		class TransportBackpacks
+		{};
+		class TransportMagazines
+        {
+            class _xx_APERSMineDispenser_Mag
+            {
+                magazine="APERSMineDispenser_Mag";
+                count=10;
+            };
+            class _xx_ATMine_Range_Mag
+            {
+                magazine="ATMine_Range_Mag";
+                count=10;
+            };
+        };
 	};
 };
 

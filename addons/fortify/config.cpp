@@ -17,8 +17,8 @@ class CfgPatches
 };
 
 class ACEX_Fortify_Presets {
-    class Pie_FortifyPreset_292West {
-        displayName = "292 Preset West";
+    class Pie_FortifyPreset_Base {
+        displayName = "292 Preset Base";
         objects[] = {
             {"Pie_Fortify_AmmoBoxObject",			1},
 			{"Land_HelipadCircle_F",				1},
@@ -41,10 +41,9 @@ class ACEX_Fortify_Presets {
         };
     };
 	
-	class Pie_FortifyPreset_292Indep {
-        displayName = "292 Preset Indep";
+	class Pie_FortifyPreset_Mines {
+        displayName = "292 Preset w/ Mines";
         objects[] = {
-            {"Pie_Fortify_AmmoBoxObject",			1},
 			{"Land_HelipadCircle_F",				1},
 			{"ACE_Track",							5},
 			{"ACE_Wheel",							5},
@@ -61,7 +60,9 @@ class ACEX_Fortify_Presets {
 			{"Land_ladder",							10},
 			{"Land_CzechHedgehog_01_new_F",			15},
 			{"B_G_HMG_02_high_F",					25},
-			{"CUP_A2_Road_Bridge_wood_25",			50}
+			{"CUP_A2_Road_Bridge_wood_25",			50},
+			{"Pie_Fortify_AmmoBoxObject",			5},
+			{"Pie292ndAdds_Fortfy_MineBox",			100}
         };
     };
 };
@@ -76,6 +77,9 @@ class CfgFunctions
 			
 			class CSWAmmoReplacer {
 				//file = "292ndPieAdds\addons\fortify\functions\fn_CSWAmmoReplacer.sqf";
+				postInit = 1;
+			};
+			class MineBoxRefundRemover {
 				postInit = 1;
 			};
 		};

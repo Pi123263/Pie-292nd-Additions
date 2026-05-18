@@ -1,6 +1,7 @@
 ["acex_fortify_objectPlaced", {
     params ["_player", "_side", "_objectPlaced"];
     // Exit if not running on the builder's machine and the placed object wasn't an ammo box
+    //Credit to Dart on ACE Discord for rewriting this code a lot better than I could
     if !(local _player && typeOf _objectPlaced == "Pie_Fortify_AmmoBoxObject") exitWith {};
     
     private _itemHolder = createVehicle ["GroundWeaponHolder", [0, 0, 0], [], 0, "CAN_COLLIDE"];
