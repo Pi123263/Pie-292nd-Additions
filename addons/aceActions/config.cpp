@@ -22,7 +22,7 @@ class CfgVehicles {
         class ACE_Actions {
 			class ACE_MainActions {
 				class Pie292Adds_AttachFlagToVehicle {
-					displayName = "Add 292nd Flag to Vehicle";
+					displayName = "Add 292nd Flag";
 					condition = "alive _target && Pie_292Adds_EnableVehicleFlags";
 					distance = 4;
 					statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\292ndflag.paa';";
@@ -60,6 +60,12 @@ class CfgVehicles {
 							displayName = "Quickdraw";
 							condition = "true";
 							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Quickdraw.paa';";
+						};
+
+						class Pie292Adds_AttachFlagToVehicle_JTAC {
+							displayName = "JTAC";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_JTAC.paa';";
 						};
                     };
 
@@ -137,6 +143,24 @@ class CfgVehicles {
                         displayName = "Overflow";
                         condition = "true";
                         statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Overflow.paa';";
+                    };
+
+					class Pie292Adds_AttachFlagToVehicle_Pride {
+						displayName = "Pride";
+						condition = "true";
+						statement = "true";
+						
+						class Pie292Adds_AttachFlagToVehicle_Kestrel {
+							displayName = "Pride Flag";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\pride\flag_pride.paa';";
+						};
+					
+						class Pie292Adds_AttachFlagToVehicle_Razor {
+							displayName = "Progress Pride Flag";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\pride\flag_prideProgress.paa';";
+						};
                     };
 				
 				
