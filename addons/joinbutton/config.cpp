@@ -28,7 +28,7 @@ class CfgMainMenuSpotlight
 	{
 		text="Join 292nd Server";
 		textIsQuote=0;
-		picture="292ndPieAdds\addons\data\logos\pride\292logo_pride.paa";
+		picture="292ndPieAdds\addons\data\logos\292ndlogo.paa";
 		video="";
 		//action="connectToServer ['194.164.96.227', 2302, 'mikemike']";
 		//action="(_this # 0) ctrlSetURL 'ts3server://194.164.96.227'; connectToServer ['194.164.96.227', 2302, 'mikemike']; ";

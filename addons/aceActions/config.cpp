@@ -145,25 +145,6 @@ class CfgVehicles {
                         statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Overflow.paa';";
                     };
 
-					class Pie292Adds_AttachFlagToVehicle_Pride {
-						displayName = "Pride";
-						condition = "true";
-						statement = "true";
-						
-						class Pie292Adds_AttachFlagToVehicle_Kestrel {
-							displayName = "Pride Flag";
-							condition = "true";
-							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\pride\flag_pride.paa';";
-						};
-					
-						class Pie292Adds_AttachFlagToVehicle_Razor {
-							displayName = "Progress Pride Flag";
-							condition = "true";
-							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\pride\flag_prideProgress.paa';";
-						};
-                    };
-				
-				
 					class Pie292Adds_RemoveFlagFromVehicle {
                         displayName = "Remove Flag";
                         condition = "true";
@@ -219,6 +200,12 @@ class Tank: LandVehicle {
 							displayName = "Quickdraw";
 							condition = "true";
 							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Quickdraw.paa';";
+						};
+
+						class Pie292Adds_AttachFlagToVehicle_JTAC {
+							displayName = "JTAC";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_JTAC.paa';";
 						};
                     };
 
