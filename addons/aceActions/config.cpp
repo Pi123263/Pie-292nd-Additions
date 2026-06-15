@@ -76,7 +76,40 @@ class CfgVehicles {
                         statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Lion.paa';";
                     };
 					
-
+					class Pie292Adds_AttachFlagToVehicle_Delta {
+                        displayName = "Delta";
+                        condition = "true";
+                        statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Delta.paa';";
+						
+						class Pie292Adds_AttachFlagToVehicle_Viper {
+							displayName = "Viper";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Viper.paa';";
+						};
+						
+						class Pie292Adds_AttachFlagToVehicle_Lancer {
+							displayName = "Lancer";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Lancer.paa';";
+						};
+						
+						class Pie292Adds_AttachFlagToVehicle_Hussar {
+							displayName = "Hussar";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Hussar.paa';";
+						};
+						
+						class Pie292Adds_AttachFlagToVehicle_Dragoon {
+							displayName = "Dragoon";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Dragoon.paa';";
+						};
+                    };
+					
+					
+					
+					
+					
 					class Pie292Adds_AttachFlagToVehicle_Echo {
 						displayName = "Echo";
 						condition = "true";
@@ -216,6 +249,37 @@ class Tank: LandVehicle {
                         statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Lion.paa';";
                     };
 					
+					
+					
+					class Pie292Adds_AttachFlagToVehicle_Delta {
+                        displayName = "Delta";
+                        condition = "true";
+                        statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Delta.paa';";
+						
+						class Pie292Adds_AttachFlagToVehicle_Viper {
+							displayName = "Viper";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Viper.paa';";
+						};
+						
+						class Pie292Adds_AttachFlagToVehicle_Lancer {
+							displayName = "Lancer";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Lancer.paa';";
+						};
+						
+						class Pie292Adds_AttachFlagToVehicle_Hussar {
+							displayName = "Hussar";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Hussar.paa';";
+						};
+						
+						class Pie292Adds_AttachFlagToVehicle_Dragoon {
+							displayName = "Dragoon";
+							condition = "true";
+							statement = "_target forceFlagTexture '292ndPieAdds\addons\data\flags\flag_Dragoon.paa';";
+						};
+                    };
 
 					class Pie292Adds_AttachFlagToVehicle_Echo {
 						displayName = "Echo";
