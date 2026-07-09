@@ -175,7 +175,49 @@ class CfgVehicles
         };
 	};
 	
-	
+	//Delta Flags
+	class Pie292ndAdds_292ndFlag_Delta: Pie292ndAdds_292ndFlag 
+	{
+		displayName="Flag(Delta)";
+		class EventHandlers
+        {
+            init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\flag_Delta.paa'";
+        };
+	};
+	class Pie292ndAdds_292ndFlag_Viper: Pie292ndAdds_292ndFlag 
+	{
+		displayName="Flag(Viper)";
+		class EventHandlers
+        {
+            init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\flag_Viper.paa'";
+        };
+	};
+	class Pie292ndAdds_292ndFlag_Lancer: Pie292ndAdds_292ndFlag 
+	{
+		displayName="Flag(Lancer)";
+		class EventHandlers
+        {
+            init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\flag_Lancer.paa'";
+        };
+	};
+	class Pie292ndAdds_292ndFlag_Hussar: Pie292ndAdds_292ndFlag 
+	{
+		displayName="Flag(Hussar)";
+		class EventHandlers
+        {
+            init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\flag_Hussar.paa'";
+        };
+	};
+	class Pie292ndAdds_292ndFlag_Dragoon: Pie292ndAdds_292ndFlag 
+	{
+		displayName="Flag(Dragoon)";
+		class EventHandlers
+        {
+            init="(_this select 0) setFlagTexture '292ndPieAdds\addons\data\flags\flag_Dragoon.paa'";
+        };
+	};
+
+	//Echo Flags
 	class Pie292ndAdds_292ndFlag_Echo: Pie292ndAdds_292ndFlag 
 	{
 		displayName="Flag(Echo)";
@@ -217,7 +259,7 @@ class CfgVehicles
         };
 	};
 	
-	
+	//Foxtrot Flags
 	class Pie292ndAdds_292ndFlag_Foxtrot: Pie292ndAdds_292ndFlag 
 	{
 		displayName="Flag(Foxtrot)";
@@ -337,7 +379,51 @@ class CfgVehicles
         };	
 	};
 	
-	
+
+	//Delta Banners
+	class Pie292ndAdds_292ndBanner_Delta : Pie292ndAdds_292ndBanner
+	{
+        displayName="Banner(Delta)";
+		class EventHandlers
+        {
+            init="(_this select 0) setObjectTextureGlobal [0,'292ndPieAdds\addons\data\flags\flag_Delta.paa']";
+        };	
+	};
+	class Pie292ndAdds_292ndBanner_Viper : Pie292ndAdds_292ndBanner
+	{
+        displayName="Banner(Viper)";
+		class EventHandlers
+        {
+            init="(_this select 0) setObjectTextureGlobal [0,'292ndPieAdds\addons\data\flags\flag_Viper.paa']";
+        };	
+	};
+	class Pie292ndAdds_292ndBanner_Lancer : Pie292ndAdds_292ndBanner
+	{
+        displayName="Banner(Lancer)";
+		class EventHandlers
+        {
+            init="(_this select 0) setObjectTextureGlobal [0,'292ndPieAdds\addons\data\flags\flag_Lancer.paa']";
+        };	
+	};
+	class Pie292ndAdds_292ndBanner_Hussar : Pie292ndAdds_292ndBanner
+	{
+        displayName="Banner(Hussar)";
+		class EventHandlers
+        {
+            init="(_this select 0) setObjectTextureGlobal [0,'292ndPieAdds\addons\data\flags\flag_Hussar.paa']";
+        };	
+	};
+	class Pie292ndAdds_292ndBanner_Dragoon : Pie292ndAdds_292ndBanner
+	{
+        displayName="Banner(Dragoon)";
+		class EventHandlers
+        {
+            init="(_this select 0) setObjectTextureGlobal [0,'292ndPieAdds\addons\data\flags\flag_Dragoon.paa']";
+        };	
+	};
+
+
+	//Echo Banners
 	class Pie292ndAdds_292ndBanner_Echo : Pie292ndAdds_292ndBanner
 	{
         displayName="Banner(Echo)";
@@ -379,7 +465,7 @@ class CfgVehicles
         };	
 	};
 	
-	
+	//Foxtrot Banners
 	class Pie292ndAdds_292ndBanner_Foxtrot : Pie292ndAdds_292ndBanner
 	{
         displayName="Banner(Foxtrot)";
