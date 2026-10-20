@@ -31,7 +31,7 @@ class CfgEditorSubcategories
 		displayName = "Company Compositions";
 	};
 };
-
+/*
 class Cfg3DEN
 {
 	class Compositions
@@ -48,3 +48,4 @@ class Cfg3DEN
 		};
 	};
 };
+*/

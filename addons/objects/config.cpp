@@ -22,6 +22,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Supplies";
 	};
+	class Pie292ndAdds_EdSubCat_MedicalSupplies
+	{
+		displayName = "Medical Supplies";
+	};
 	class Pie292ndAdds_EdSubCat_Billboards 
 	{
 		displayName = "Billboards";
@@ -618,5 +622,378 @@ class CfgVehicles
             };
         };
 	};
+	//medical crates
+	//squad resupply
+	class ACE_medicalSupplyCrate;
+	class Pie292ndAdds_MedicalResupply_SquadResuply : ACE_medicalSupplyCrate {
+		displayname = "Squad Medical Resupply";
+		editorCategory = "Pie292ndAdds_EdCat_292nd";
+		editorSubcategory = "Pie292ndAdds_EdSubCat_MedicalSupplies";
+		mass = 200; 
+		slingLoadCargoMemoryPoints[] = {}; 
+		
+		class TransportMagazines {};
+		
+		class TransportItems
+        {
+            class _xx_ACE_fieldDressing
+            {
+                name="ACE_fieldDressing";
+                count=25;
+            };
+            class _xx_ACE_elasticBandage
+            {
+                name="ACE_elasticBandage";
+                count=25;
+            };
+			class _xx_ACE_packingBandage
+            {
+                name="ACE_packingBandage";
+                count=25;
+            };
+			class _xx_ACE_quikclot
+            {
+                name="ACE_quikclot";
+                count=25;
+            };
+			class _xx_ACE_bloodIV
+            {
+                name="ACE_bloodIV";
+                count=5;
+            };
+			class _xx_ACE_bloodIV_500
+            {
+                name="ACE_bloodIV_500";
+                count=5;
+            };
+			class _xx_ACE_bloodIV_250
+            {
+                name="ACE_bloodIV_250";
+                count=10;
+            };
+			class _xx_kat_IO_FAST
+            {
+                name="kat_IO_FAST";
+                count=10;
+            };
+			class _xx_ACE_morphine
+            {
+                name="ACE_morphine";
+                count=10;
+            };
+			class _xx_ACE_epinephrine
+            {
+                name="ACE_epinephrine";
+                count=10;
+            };
+			class _xx_kat_Painkiller
+            {
+                name="kat_Painkiller";
+                count=5;
+            };
+			class _xx_ACE_painkillers
+            {
+                name="ACE_painkillers";
+                count=5;
+            };
+			class _xx_ACE_tourniquet
+            {
+                name="ACE_tourniquet";
+                count=10;
+            };
+			class _xx_ACE_splint
+            {
+                name="ACE_splint";
+                count=10;
+            };
+			class _xx_kat_IV_16
+            {
+                name="kat_IV_16";
+                count=10;
+            };
+			
+        };
+	};
+	//platoon resupply
+	class UK3CB_Cocaine_Pallet_Wrapped_Green;
+	class Pie292ndAdds_MedicalResupply_PlatoonResuply : UK3CB_Cocaine_Pallet_Wrapped_Green {
+		displayname = "Platoon Medical Resupply";
+		editorCategory = "Pie292ndAdds_EdCat_292nd";
+		editorSubcategory = "Pie292ndAdds_EdSubCat_MedicalSupplies";
+		
+		class TransportMagazines {};
+		
+		class TransportItems
+        {
+			class _xx_ACE_fieldDressing
+            {
+                name="ACE_fieldDressing";
+                count=75;
+            };
+            class _xx_ACE_elasticBandage
+            {
+                name="ACE_elasticBandage";
+                count=75;
+            };
+			class _xx_ACE_packingBandage
+            {
+                name="ACE_packingBandage";
+                count=75;
+            };
+			class _xx_ACE_quikclot
+            {
+                name="ACE_quikclot";
+                count=75;
+            };
+			class _xx_ACE_bloodIV
+            {
+                name="ACE_bloodIV";
+                count=30;
+            };
+			class _xx_ACE_bloodIV_500
+            {
+                name="ACE_bloodIV_500";
+                count=25;
+            };
+			class _xx_ACE_bloodIV_250
+            {
+                name="ACE_bloodIV_250";
+                count=20;
+            };
+			class _xx_kat_IO_FAST
+            {
+                name="kat_IO_FAST";
+                count=25;
+            };
+			class _xx_ACE_morphine
+            {
+                name="ACE_morphine";
+                count=50;
+            };
+			class _xx_ACE_epinephrine
+            {
+                name="ACE_epinephrine";
+                count=50;
+            };
+			class _xx_kat_Painkiller
+            {
+                name="kat_Painkiller";
+                count=25;
+            };
+			class _xx_ACE_painkillers
+            {
+                name="ACE_painkillers";
+                count=25;
+            };
+			class _xx_ACE_tourniquet
+            {
+                name="ACE_tourniquet";
+                count=50;
+            };
+			class _xx_ACE_splint
+            {
+                name="ACE_splint";
+                count=50;
+            };
+			class _xx_kat_IV_16
+            {
+                name="kat_IV_16";
+                count=25;
+            };
+			class _xx_ACE_surgicalKit
+            {
+                name="ACE_surgicalKit";
+                count=5;
+            };
+			class _xx_ACE_personalAidKit
+            {
+                name="ACE_personalAidKit";
+                count=5;
+            };
+			class _xx_kat_TXA
+            {
+                name="kat_TXA";
+                count=25;
+            };
+			class _xx_kat_naloxone
+            {
+                name="kat_naloxone";
+                count=10;
+            };
+			class _xx_kat_lidocaine
+            {
+                name="kat_lidocaine";
+                count=10;
+            };
+			class _xx_ACE_adenosine
+            {
+                name="ACE_adenosine";
+                count=10;
+            };
+			class _xx_kat_amiodarone
+            {
+                name="kat_amiodarone";
+                count=10;
+            };
+			class _xx_kat_Penthrox
+            {
+                name="kat_Penthrox";
+                count=10;
+            };
+		};
+	};
+	//company resupply
+	class B_Slingload_01_Medevac_F;
+	class Pie292ndAdds_MedicalResupply_CompanyResuply : B_Slingload_01_Medevac_F {
+		displayname = "Company Medical Resupply";
+		editorCategory = "Pie292ndAdds_EdCat_292nd";
+		editorSubcategory = "Pie292ndAdds_EdSubCat_MedicalSupplies";
+		
+		class TransportMagazines {};
+		
+		class TransportItems
+        {
+			class _xx_ACE_fieldDressing
+            {
+                name="ACE_fieldDressing";
+                count=100;
+            };
+            class _xx_ACE_elasticBandage
+            {
+                name="ACE_elasticBandage";
+                count=100;
+            };
+			class _xx_ACE_packingBandage
+            {
+                name="ACE_packingBandage";
+                count=100;
+            };
+			class _xx_ACE_quikclot
+            {
+                name="ACE_quikclot";
+                count=100;
+            };
+			class _xx_ACE_bloodIV
+            {
+                name="ACE_bloodIV";
+                count=75;
+            };
+			class _xx_ACE_bloodIV_500
+            {
+                name="ACE_bloodIV_500";
+                count=30;
+            };
+			class _xx_ACE_bloodIV_250
+            {
+                name="ACE_bloodIV_250";
+                count=40;
+            };
+			class _xx_kat_IO_FAST
+            {
+                name="kat_IO_FAST";
+                count=50;
+            };
+			class _xx_ACE_morphine
+            {
+                name="ACE_morphine";
+                count=100;
+            };
+			class _xx_ACE_epinephrine
+            {
+                name="ACE_epinephrine";
+                count=100;
+            };
+			class _xx_kat_Painkiller
+            {
+                name="kat_Painkiller";
+                count=50;
+            };
+			class _xx_ACE_painkillers
+            {
+                name="ACE_painkillers";
+                count=50;
+            };
+			class _xx_ACE_tourniquet
+            {
+                name="ACE_tourniquet";
+                count=100;
+            };
+			class _xx_ACE_splint
+            {
+                name="ACE_splint";
+                count=100;
+            };
+			class _xx_kat_IV_16
+            {
+                name="kat_IV_16";
+                count=50;
+            };
+			class _xx_ACE_surgicalKit
+            {
+                name="ACE_surgicalKit";
+                count=10;
+            };
+			class _xx_ACE_personalAidKit
+            {
+                name="ACE_personalAidKit";
+                count=10;
+            };
+			class _xx_kat_TXA
+            {
+                name="kat_TXA";
+                count=25;
+            };
+			class _xx_kat_naloxone
+            {
+                name="kat_naloxone";
+                count=25;
+            };
+			class _xx_kat_lidocaine
+            {
+                name="kat_lidocaine";
+                count=25;
+            };
+			class _xx_ACE_adenosine
+            {
+                name="ACE_adenosine";
+                count=25;
+            };
+			class _xx_kat_amiodarone
+            {
+                name="kat_amiodarone";
+                count=25;
+            };
+			class _xx_kat_Penthrox
+            {
+                name="kat_Penthrox";
+                count=25;
+            };
+			class _xx_kat_X_AED
+            {
+                name="kat_X_AED";
+                count=10;
+            };
+			class _xx_kat_EACA
+            {
+                name="kat_EACA";
+                count=25;
+            };
+			class _xx_kat_nalbuphine
+            {
+                name="kat_nalbuphine";
+                count=25;
+            };
+		};
+	};
+
+
 };
 
+
+/*
+class _xx_
+{
+name="xx";
+count=10;
+};
+*/
